@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 80.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    background-image: url("img/SL_043021_42650_02.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+section .container {
+    font-size: 1.5rem;
+}
+
+.container .biodata {
+    position: absolute;
+    top: 30%; right: 28.5%;
+    width: 40rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: #005aa4;
+    text-align: center;
+}
+
+.biodata .logo {
+    width: 10rem;
+}
+
+.biodata h3 {
+    color: #ffcc00;
+    font-size: 2.3rem;
+}
+
+.biodata p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .container .biodata {
+        top: 24%; right: 25.5%;
+        width: 35rem;
+    }
+
+    .biodata .logo {
+        width: 9rem;
+    }
+    
+    .biodata h3 {
+        font-size: 2.1rem;
+    }
+    
+    .biodata p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .container .biodata {
+        top: 24%; right: 20.5%;
+        width: 33rem;
+    }
+
+    .biodata .logo {
+        width: 8rem;
+    }
+    
+    .biodata h3 {
+        font-size: 2rem;
+    }
+    
+    .biodata p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .container .biodata {
+        top: 24%; right: 12.5%;
+        width: 25rem;
+    }
+
+    .biodata .logo {
+        width: 8rem;
+    }
+    
+    .biodata h3 {
+        font-size: 2rem;
+    }
+    
+    .biodata p {
+        font-size: 0.9rem;
+    }
+}
