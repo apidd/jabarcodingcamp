@@ -3,7 +3,6 @@ function jumlah_kata(kalimat){
     return kata.length
 }
 
-
 var kalimat_1 ="Halo nama saya Muhammad Rafid"
 var kalimat_2 ="Saya Rafid"
 var kalimat_3 ="Saya Muhammad Rafid"
